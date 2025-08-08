@@ -1,0 +1,6 @@
+@Spotless.WebAPI_HostAddress = http://localhost:5215
+
+GET {{Spotless.WebAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Spotless.Application\Spotless.Application.csproj" />
+      <ProjectReference Include="..\Spotless.Identity\Spotless.Identity.csproj" />
+      <ProjectReference Include="..\Spotless.Infrastructure\Spotless.Infrastructure.csproj" />
+      <ProjectReference Include="..\Spotless.Persistence\Spotless.Persistence.csproj" />
+    </ItemGroup>
+
+</Project>
